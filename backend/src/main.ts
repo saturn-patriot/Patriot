@@ -9,7 +9,6 @@ async function bootstrap() {
     .setTitle("Backend Патриот")
     .setDescription("Swagger для Backend части проекта Патриот")
     .setVersion("0.1")
-    .addTag("Альфа прототип")
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
