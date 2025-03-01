@@ -1,0 +1,25 @@
+.cardEvents {
+    background-color: #fff;
+    width: 25%;
+    height: 90%;
+    border-radius: 0.4vw;
+
+    img {
+        border-radius: 0.4vw;
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+
+    p {
+        font-size: 0.9vw;
+        margin-top: 3%;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p,h1 {
+        margin-left: 4%;
+    }
+}
