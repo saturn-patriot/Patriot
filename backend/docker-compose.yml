@@ -1,0 +1,27 @@
+# Для поднятия на локальных машинах
+# Не использовать на проде
+# для запуска вписать в корневой директории:
+# docker-compose up -d
+# docker-compose down, шоб ронять
+
+services:
+
+  russia-path:
+    container_name: postgres
+    image: postgres:latest
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: "russia_path"
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "kftop2"
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+
+volumes:
+  postgres-data:

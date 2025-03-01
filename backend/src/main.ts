@@ -5,14 +5,15 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+  // Swagger конфигурация
   const config = new DocumentBuilder()
-    .setTitle("Backend Патриот")
-    .setDescription("Swagger для Backend части проекта Патриот")
-    .setVersion("0.1")
+    .setTitle('Task API')
+    .setVersion('1.0')
     .build();
-
+    
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup("api", app, document);
+  SwaggerModule.setup('api', app, document);
+
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
