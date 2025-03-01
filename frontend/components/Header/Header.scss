@@ -1,0 +1,43 @@
+.header {
+    background-color: #fff;
+    height: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .header__nav a {
+        margin-right: 4em;
+    }
+
+    .header__nav a:last-child {
+        margin-right: 0;
+    }
+
+    .header__searchAndprofile {
+        display: flex;
+
+        input,a,p {
+            margin-right: 2vw;
+        }
+
+        input {
+            border-radius: 10px;
+            border: 0.5px solid #2C3E50;
+            padding: 0.4vw 0.8vw;
+        }
+
+        a,p {
+            border-radius: 10px;
+            border: 0.5px solid #2C3E50;
+            padding: 0.4vw 0.7vw;
+        }
+
+        .profile {
+            width: 2.5vw;
+            height: 2.5vw;
+            background-color: gray;
+            border-radius: 1em;
+        }
+    }
+
+}
