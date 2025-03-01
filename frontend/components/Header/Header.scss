@@ -7,6 +7,7 @@
 
     .header__nav a {
         margin-right: 4em;
+        font-size: 1.2  vw;
     }
 
     .header__nav a:last-child {
@@ -21,13 +22,14 @@
         }
 
         input {
-            border-radius: 10px;
+            width: 10vw;
+            border-radius: 1vw;
             border: 0.5px solid #2C3E50;
             padding: 0.4vw 0.8vw;
         }
 
         a,p {
-            border-radius: 10px;
+            border-radius: 1vw;
             border: 0.5px solid #2C3E50;
             padding: 0.4vw 0.7vw;
         }
@@ -36,7 +38,7 @@
             width: 2.5vw;
             height: 2.5vw;
             background-color: gray;
-            border-radius: 1em;
+            border-radius: 1vw;
         }
     }
 

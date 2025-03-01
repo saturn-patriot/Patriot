@@ -9,7 +9,7 @@ export default function CardEvents() {
     <div className='cardEvents'>
       <Image src={testImage} width={250} height={200} />
       <p className="date">21.02.2025</p>
-      <h1 className="title">test</h1>
+      <h1 className="title">Lorem, ipsum dolor.</h1>
     </div>
   )
 }

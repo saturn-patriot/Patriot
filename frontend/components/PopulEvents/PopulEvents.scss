@@ -1,5 +1,8 @@
 .populEvents {
     height: 40%;
+    // display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .title {

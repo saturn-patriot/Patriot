@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.scss"
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
             Logo
         </h1>
         <div className="header__nav">
-            <a href="#">Главная</a>
+            <Link href="/">Главная</Link>
             <a href="#">Категории</a>
             <a href="#">Форум</a>
         </div>
@@ -18,7 +19,7 @@ export default function Header() {
             <a href="#" className="header--notification">N</a>
             <p className="header--stars">999</p>
             {/* <Image src="" /> */}
-            <div className="profile"></div>
+            <Link href="profile"><div className="profile"></div></Link>
         </div>
     </div>
   )
