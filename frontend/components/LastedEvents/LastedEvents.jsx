@@ -9,6 +9,11 @@ export default function LastedEvents() {
         <h1 className="title">Последние события</h1>
         <div className="eventsList">
           <CardEvents />
+          <CardEvents />
+          <CardEvents />
+          <CardEvents />
+          <CardEvents />
+          <CardEvents />
         </div>
     </div>
   )

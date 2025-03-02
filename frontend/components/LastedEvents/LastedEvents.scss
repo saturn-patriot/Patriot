@@ -1,6 +1,6 @@
 .lastedEvents {
     // background-color: red;
-    height: 20%;
+    height: 18%;
 }
 
 .title {
@@ -10,4 +10,7 @@
 .eventsList {
     height: 100%;
     // background-color: green;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
 }
