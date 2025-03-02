@@ -14,3 +14,10 @@
     overflow-y: hidden;
     display: flex;
 }
+
+@media screen and (max-width: 480px) {
+    .lastedEvents {
+        height: 25%;
+        width: 100%;
+    }
+}

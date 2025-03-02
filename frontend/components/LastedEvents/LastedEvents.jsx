@@ -11,9 +11,6 @@ export default function LastedEvents() {
           <CardEvents />
           <CardEvents />
           <CardEvents />
-          <CardEvents />
-          <CardEvents />
-          <CardEvents />
         </div>
     </div>
   )
