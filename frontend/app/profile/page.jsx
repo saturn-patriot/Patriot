@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import "./page.scss"
 
 export default function Page() {
   const [user, setUser] = useState(null);

@@ -7,7 +7,7 @@ export default function CardEvents() {
   const testImage = "/test.png"
   return (
     <div className='cardEvents'>
-      <Image src={testImage} width={250} height={200} />
+      <Image src={testImage} width={250} height={200} alt="img" />
       <p className="date">21.02.2025</p>
       <h1 className="title">Lorem, ipsum dolor.</h1>
     </div>

@@ -6,7 +6,7 @@ import PopulEvents from "@/components/PopulEvents/PopulEvents";
 
 export default function Home() {
   return (
-  <div>
+  <div className="home">
     <div className="home__container">
       <LastedEvents />
       <PopulEvents />
